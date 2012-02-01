@@ -1,13 +1,21 @@
 {
    "name":"keyvalues-node",
    "description":"Valve's KeyValues Text File Format serialization library",
-   "version":"0.0.1",
+   "version":"0.0.2",
    "homepage":"http://github.com/kavu/keyvalues-node",
    "repository":"git://github.com/kavu/keyvalues-node.git",
    "author":"Max Riveiro <kavu13@gmail.com> (http://riveiro.ru/)",
+   "tags":["util", "serialize", "parser", "encoder"],
    "main":"./index.js",
+   "issues":{
+      "url" : "http://github.com/kavu/keyvalues-node/issues",
+      "email" : "kavu13+node@gmail.com"
+   },
    "engines":{
       "node":">= 0.4.0"
+   },
+   "devDependencies":{
+      "expresso":"~0.9.2"
    },
    "licenses":[
       {
