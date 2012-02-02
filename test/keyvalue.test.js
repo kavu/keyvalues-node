@@ -29,6 +29,8 @@ exports['test KeyValue#decode'] = function () {
     assert.eql(simple_object, kv.decode('a 1\n'));
     // FIXME: Failing right now
     //assert.eql(simple_object, kv.decode('a 1'));
+    assert.eql(complex_object, kv.decode(complex_object_encoded));
+    assert.eql(complex_object, kv.decode(complex_object_encoded_compact));
 };
 
 exports['test KeyValue#encode'] = function () {
